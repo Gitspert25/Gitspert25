@@ -16,13 +16,12 @@ and always brimming with innovative ideas. Below you'll find information about m
 - **Excel**
 - **PowerPoint**
 - **OneNote**
+- **Markdown**
 
 ## 🌱 Queue Stack
 - **Docker**
-- **Kubernetes**
 - **PHP**
 - **JavaScript**
-- **Markdown**
 
 ## 💡 Projects
 Not gonna spill the beans, cause this is once in a blue moon. I'll tell you a sneak peak of my latest idea...
