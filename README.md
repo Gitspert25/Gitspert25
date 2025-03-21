@@ -49,8 +49,8 @@ No chatting or meeting now.
 ## 🎉 Fun Facts
 - **Games:** I'm master at Monopoly!
 - **Fun:** I named the GitHub Copilot; G.C. Racoon
-- **Quiz:** If the alphabet is from A-Z. What is Z-A!?
-- **Quiz** Why do bash programmers love to go to the beach?
+- **Riddle:** If the alphabet is from A-Z. What is Z-A!?
+- **Riddle:** Why do bash programmers love to go to the beach?
   
   [Don't try to ask the quiz from Copilot 🥴]
 
