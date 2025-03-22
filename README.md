@@ -1,7 +1,7 @@
 # Hi there, I'm Gitspert25! 👋
 
 Welcome to my GitHub profile! I'm an aspiring engineer with a passion for coding, creating new tech pieces, 
-and always brimming with innovative ideas. Below you'll find information about my skills, projects, and much more that you can imagine.
+and always brimming with innovative ideas. Below you'll find information about my skills, and much more that you can imagine.
 
 ## 🚀 Skill Stack
 - **HTML**
