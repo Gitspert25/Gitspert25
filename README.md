@@ -1,7 +1,5 @@
 # Hi there, I'm Gitspert25! 👋
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00F7FB&background=070A1C00&center=true&vCenter=true&multiline=true&lines=Welcome+to+my+GitHub+profile!;I'm+an+aspiring+engineer+with+a+passion+for+coding%2C;creating+new+tech+pieces%2C;and+always+brimming+with+innovative+ideas.;Below+you'll+find+info+about+my+skills%2C;and+much+more+that+you+can+imagine." alt="Typing Effect"/>
-
+ 
 <p>
   <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
