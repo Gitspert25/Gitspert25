@@ -1,43 +1,38 @@
 # Hi there, I'm Gitspert25! 👋
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00F7FB&background=070A1C00&center=true&vCenter=true&multiline=true&lines=Welcome+to+my+GitHub+profile!;I'm+an+aspiring+engineer+with+a+passion+for+coding%2C;creating+new+tech+pieces%2C;and+always+brimming+with+innovative+ideas.;Below+you'll+find+info+about+my+skills%2C;and+much+more+that+you+can+imagine." alt="Typing Effect"/>
 
-Welcome to my GitHub profile! I'm an aspiring engineer with a passion for coding, creating new tech pieces, 
-and always brimming with innovative ideas. Below you'll find information about my skills, and much more that you can imagine.
+<p>
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitBash-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scratch-%23F7A028.svg?&style=for-the-badge&logo=scratch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Word-%232B579A.svg?&style=for-the-badge&logo=microsoft-word&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Excel-%23217C3.svg?&style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=microsoft-powerpoint&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OneNote-%237B1FA2.svg?&style=for-the-badge&logo=microsoft-onenote&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash/Shell-%234EAA25.svg?&style=for-the-badge&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white"/>
+</p>
 
-## 🚀 Skill Stack
-- **HTML**
-- **CSS**
-- **Python**
-- **GitBash**
-- **GitHub**
-- **VS Code**
-- **Scratch**
-- **Amazon Web Services (AWS)**
-- **Word**
-- **Excel**
-- **PowerPoint**
-- **OneNote**
-- **Markdown**
-
-## 🌱 Queue Stack
-- **Docker**
-- **PHP**
-- **JavaScript**
 
 ## 📈 GitHub Stats
-![Gitspert25's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gitspert25&show_icons=true&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Gitspert25&show_icons=true&theme=tokyonight" alt="Gitspert25's GitHub stats"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Gitspert25&theme=tokyonight"/>
+</p>
+<img src="https://komarev.com/ghpvc/?username=Gitspert25&style=flat-square&color=blue" alt="Profile Views"/>
+
 
 ## 💬 Quote
 > "Every challenge is an opportunity to innovate and create something extraordinary." - Gitspert25
 
 > "The future belongs to those who dare to innovate and push boundaries." - Gitspert25
 
-## 🎉 Fun Facts
-- **Fun:** I named the GitHub Copilot; G.C. Racoon
-- **Riddle:** If the alphabet is from A-Z. What is Z-A!?
-- **Riddle:** Why do bash programmers love to go to the beach?
-  
-  [Don't try to ask the quiz from Copilot 🥴]
-
-**Just wait for me to be the cream of the crop!**
-**Lets think outside the box!**
 # Adiós Amigos! 😎
