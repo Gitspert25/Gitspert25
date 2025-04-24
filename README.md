@@ -8,8 +8,10 @@
   <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash/Shell-%234EAA25.svg?&style=for-the-badge&logo=gnubash&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL-%2300C7B7.svg?&style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JSON-%23000000.svg?&style=for-the-badge&logo=json&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YAML-%23007ACC.svg?&style=for-the-badge&logo=yaml&logoColor=white"/>
 </p>
 
 #### Tools & IDEs
