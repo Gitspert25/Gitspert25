@@ -39,7 +39,8 @@
 
 #### OS
 <p>
-  <img src="https://img.shields.io/badge/Windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white"/>
+          <a href="https://skillicons.dev" target="_blank">
+          <img src="https://skillicons.dev/icons?i=windows&perline=6" alt="ProgLangs">
 </p>
 
 ## 💬 Quote
