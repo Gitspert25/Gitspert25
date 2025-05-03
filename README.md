@@ -19,6 +19,7 @@
 #### Tools & IDEs
 <p>
   <img src="https://img.shields.io/badge/GitBash-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PowerShell-%25F25092.svg?&style=for-the-badge&logo=shell&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scratch-%23F7A028.svg?&style=for-the-badge&logo=scratch&logoColor=white"/>
