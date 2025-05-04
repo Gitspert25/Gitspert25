@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azraq | Sign In</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --azraq-blue: #2155CD;
+            --azraq-dark: #1B263B;
+            --azraq-light: #F5F7FB;
+            --azraq-accent: #3E8EF7;
+        }
+        body {
+            background: var(--azraq-light);
+            color: var(--azraq-dark);
+            font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            background: var(--azraq-blue)!important;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #fff !important;
+        }
+        .signin-section {
+            margin: auto;
+            max-width: 430px;
+            width: 100%;
+            padding: 30px 24px 24px 24px;
+            background: #fff;
+            border-radius: 1.2rem;
+            box-shadow: 0 8px 32px 0 rgba(33,85,205,0.09);
+        }
+        .azraq-logo {
+            display: flex;
+            justify-content: center;
+            padding: 24px 0 12px 0;
+        }
+        .azraq-logo span {
+            font-size: 2.5rem;
+            font-family: 'Orbitron', monospace, Arial, sans-serif;
+            color: var(--azraq-blue);
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .btn-azraq {
+            background: var(--azraq-accent);
+            color: #fff;
+            transition: background 0.1s;
+            font-weight: bold;
+            letter-spacing: .5px;
+        }
+        .btn-azraq:hover, .btn-azraq:focus {
+            background: var(--azraq-blue);
+            color: #fff;
+        }
+        .forgot-link {
+            font-size: 0.95rem;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 20px 0 0 0;
+            text-align: center;
+            background: var(--azraq-blue);
+            color: #E7EDF8;
+            letter-spacing: 1px;
+            font-size: 1rem;
+        }
+        .signin-section .form-control:focus {
+            border-color: var(--azraq-accent);
+            box-shadow: 0 0 0 0.2rem rgba(33, 85, 205, 0.09);
+        }
+        @media (max-width: 576px) {
+            .signin-section {
+                padding: 18px 5vw 18px 5vw;
+            }
+            .azraq-logo span {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Azraq</a>
+      </div>
+    </nav>
+
+    <!-- SIGN IN FORM SECTION -->
+    <div class="container d-flex flex-column justify-content-center" style="flex:1;">
+      <div class="signin-section my-4 shadow">
+        <div class="azraq-logo">
+          <span><i class="bi bi-moon-stars-fill"></i> Azraq</span>
+        </div>
+        <h5 class="text-center mb-3" style="color: var(--azraq-blue);">Sign In to Your Account</h5>
+
+        <form id="signInForm" autocomplete="off">
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email or Username</label>
+            <input type="text" class="form-control" id="inputEmail" placeholder="name@example.com or username" required autofocus>
+          </div>
+          <div class="mb-2">
+            <label for="inputPassword" class="form-label">Password</label>
+            <div class="input-group">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+              <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                <i class="bi bi-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="mb-3 d-flex justify-content-between align-items-center">
+            <div>
+              <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+              <label class="form-check-label" for="rememberMe" style="font-size:0.96rem;">
+                Remember me
+              </label>
+            </div>
+            <a href="#" class="forgot-link text-decoration-none" style="color:var(--azraq-accent)">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn btn-azraq w-100 mb-2">Sign In</button>
+        </form>
+
+        <div class="text-center mt-3">
+          <span>Don't have an account?</span>
+          <a href="index.html" class="text-decoration-none" style="color:var(--azraq-accent);font-weight:500;">Join Azraq!</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Success Modal -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="welcomeModalTitle">Welcome to Azraq!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <i class="bi bi-emoji-laughing" style="font-size:2rem;color:var(--azraq-accent)"></i>
+            <br>
+            Sign in successful! (Demo)
+            <div class="text-muted small mt-1">Get ready to explore your social galaxy 🌌</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      Azraq &copy; 2025 | Crafted with 🧠 by M.J. Galaxy
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS for Form -->
+    <script>
+      // Show/hide password logic
+      document.getElementById('togglePassword').addEventListener('click', function () {
+        const pwd = document.getElementById('inputPassword');
+        const icon = this.querySelector('i');
+        if (pwd.type === "password") {
+            pwd.type = "text";
+            icon.classList.remove('bi-eye');
+            icon.classList.add('bi-eye-slash');
+        } else {
+            pwd.type = "password";
+            icon.classList.remove('bi-eye-slash');
+            icon.classList.add('bi-eye');
+        }
+      });
+
+      // Form submission
+      document.getElementById('signInForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // Normally, do auth here.
+        var welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+        welcomeModal.show();
+        setTimeout(function(){
+          welcomeModal.hide();
+          // Redirect to dashboard (coming soon) or home page! Example:
+          // window.location.href = 'dashboard.html';
+        }, 1800);
+      });
+    </script>
+</body>
+</html>
