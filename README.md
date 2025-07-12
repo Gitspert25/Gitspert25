@@ -40,7 +40,7 @@
 <p>
           <a href="https://skillicons.dev" target="_blank">
           <img src="https://skillicons.dev/icons?i=windows&perline=6" alt="ProgLangs">
-          <img src="https://skillicons.dev/icons?i=python&perline=6" alt="ProgLangs">
+          <img src="https://skillicons.dev/icons?i=draw.io&perline=6" alt="ProgLangs">
 </p>
 
 ## 💬 Quote
