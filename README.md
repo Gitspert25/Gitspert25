@@ -3,7 +3,8 @@
 ## 🪙 Powers
 #### Programming Languages
 <p>
-  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+  <a href="https://skillicons.dev" target="_blank">
+  <img src="https://skillicons.dev/icons?i=HTML&perline=6" alt="ProgLangs">
   <img src="https://img.shields.io/badge/CSS-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash/Shell-%234EAA25.svg?&style=for-the-badge&logo=gnubash&logoColor=white"/>
@@ -40,7 +41,6 @@
 <p>
           <a href="https://skillicons.dev" target="_blank">
           <img src="https://skillicons.dev/icons?i=windows&perline=6" alt="ProgLangs">
-          <img src="https://skillicons.dev/icons?i=draw.io&perline=6" alt="ProgLangs">
 </p>
 
 ## 💬 Quote
