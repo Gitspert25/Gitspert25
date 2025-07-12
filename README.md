@@ -24,6 +24,7 @@
   <img src="https://img.shields.io/badge/Excel-%23217C3.svg?&style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
   <img src="https://img.shields.io/badge/PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=microsoft-powerpoint&logoColor=white"/>
   <img src="https://img.shields.io/badge/OneNote-%237B1FA2.svg?&style=for-the-badge&logo=microsoft-onenote&logoColor=white"/>
+  <img src="https://img.shields.io/badge/draw.io-%237B1FA2.svg?&style=for-the-badge&logo=draw.io&logoColor=white"/>
 </p>
 
 #### Subjects
