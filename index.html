@@ -3,197 +3,195 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>M.J. Galaxy - All-Type Engineer Portfolio</title>
+<title>M.J. Galaxy - Spooky Pro Portfolio</title>
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Agency+FB&family=Consolas&family=Pacifico&family=Rockwell&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Consolas&family=Pacifico&family=Agency+FB&family=Rockwell&display=swap" rel="stylesheet" />
 <style>
-  /* === Sass-Style Nested Comment for Readability === */
+  /* Dark gradient spooky background */
   body {
-    background-color: #000;
-    color: #ddd;
-    font-family: 'Consolas', monospace, monospace;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(135deg, #0a0f1a 0%, #1a2238 50%, #0a0f1a 100%);
+    color: #cfd8dc;
+    font-family: 'Consolas', monospace, monospace;
   }
-  
-  header, main, footer {
+
+  /* Container for all content */
+  .container {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
   }
-  
-  header {
-    border-bottom: 1px solid #333;
-    padding-bottom: 1.5rem;
+
+  /* Frosted glass cards with spooky blue glow */
+  .card-spooky {
+    background: rgba(10, 15, 26, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 15px 2px #0ff3ff88;
+    backdrop-filter: blur(12px);
+    margin-bottom: 2rem;
+    padding: 1.75rem;
+    transition: box-shadow 0.3s ease;
+    border: 1.5px solid rgba(15, 255, 255, 0.35);
   }
-  
-  .bio p {
-    font-family: 'Agency FB', sans-serif;
-    font-size: 1.15rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.5;
+  .card-spooky:hover {
+    box-shadow: 0 0 25px 6px #0ffeffcc;
   }
-  
-  h1, h2, h3 {
+
+  /* Titles with subtle glow */
+  h1, h2 {
     font-family: 'Rockwell', serif;
-    margin-bottom: 1rem;
+    text-shadow: 0 0 8px #0ffcff;
   }
-  
   h1 {
-    font-size: 2.75rem;
+    font-size: 3.25rem;
     font-weight: 700;
-    color: #0ff;
-    text-shadow: 0 0 8px #0ff;
-  }
-  
-  .motto {
-    font-family: 'Pacifico', cursive;
-    font-size: 1.25rem;
-    color: #0fa;
-    margin: 0 0 1.2rem 0;
-    text-align: center;
+    color: #00ffee;
+    margin-bottom: 1rem;
     user-select: none;
   }
-  
-  .section-title {
-    border-bottom: 1px solid #222;
-    padding-bottom: 0.25rem;
+  h2 {
+    font-size: 2rem;
+    color: #a0f0ffdd;
     margin-bottom: 1rem;
-    color: #0ff;
   }
-  
-  a {
-    color: #0ff;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .skills-list, .interests-list, .engineering-fields {
-    list-style: none;
-    padding-left: 0;
-  }
-  .skills-list li, .interests-list li, .engineering-fields li {
-    background: #111;
-    margin-bottom: 0.4rem;
-    padding: 0.35rem 0.5rem;
-    font-family: 'Consolas', monospace;
-    border-radius: 4px;
-  }
-  
-  /* Collaboration Service Box */
-  .collab-box {
-    border: 2px dashed #0fa;
-    background: #020202cc;
-    padding: 1rem;
-    border-radius: 8px;
-    margin-top: 1rem;
+
+  /* Subtitle beneath main name */
+  .subtitle {
     font-family: 'Agency FB', sans-serif;
+    color: #80d6e8cc;
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+  }
+
+  /* About Text */
+  .about-text {
+    font-family: 'Consolas', monospace;
+    line-height: 1.6;
+    color: #ccddeeee;
+  }
+
+  /* Skill badges */
+  .badge-spooky {
+    background: rgba(0, 255, 255, 0.15);
+    color: #55eaff;
+    font-weight: 600;
+    margin: 0.2rem 0.35rem 0.3rem 0;
+    padding: 0.5rem 0.9rem;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 0 0 10px #0cf5ff88;
+    user-select: none;
+    cursor: default;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .badge-spooky:hover {
+    box-shadow: 0 0 15px #80ffffdd;
+    transform: scale(1.07);
+    color: #aaffff;
+  }
+
+  /* Section spacing */
+  section {
     user-select: text;
   }
-  
-  /* Buttons */
-  .btn-primary {
-    background-color: #0fa;
+
+  /* Collaboration Hub style */
+  .collab-box {
+    background: rgba(10, 15, 26, 0.85);
+    border: 2px dashed #00ffeeaa;
+    padding: 1.4rem 1.8rem;
+    border-radius: 15px;
+    font-family: 'Agency FB', sans-serif;
+    color: #a0f0ffcc;
+    box-shadow: 0 0 20px #00ffeeaa;
+    margin-bottom: 2rem;
+  }
+  .collab-box p {
+    margin-bottom: 0.6rem;
+  }
+  .collab-link {
+    color: #0ff;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  .collab-link:hover {
+    color: #55ffff;
+  }
+
+  /* Link button style for GitHub */
+  .btn-gh {
+    background: #0dd;
     border: none;
+    color: #004040;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 0.6rem 1.2rem;
+    transition: background 0.3s ease;
   }
-  .btn-primary:hover {
-    background-color: #0cf;
+  .btn-gh:hover {
+    background: #0ff;
+    color: #002b2b;
   }
   
+  /* Footer text */
   footer {
-    border-top: 1px solid #333;
-    padding-top: 1rem;
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #555;
     text-align: center;
+    color: #334455dd;
     font-family: 'Consolas', monospace;
-  }
-  
-  /* Responsive tweaks */
-  @media (max-width: 600px) {
-    h1 {
-      font-size: 2rem;
-    }
+    margin: 3rem 1rem 1rem;
   }
 </style>
 </head>
 <body>
-<header class="text-center">
-  <h1>M.J. Galaxy</h1>
-  <p class="motto">“Age, Gender, just a bunch of characters! It's about the brains &amp; the hearts. For which the hands cannot feel but the heart can. For which the tongue cannot say but the brain can. In how the truth sees but the eyes can't.”</p>
-  <section class="bio">
-    <p>Assalualaikum! Welcome fellow <strong>Cubers</strong>! I’m <strong>M.J. Galaxy</strong> — a 14-year-old tech wizard inventing the future one byte at a time (while still figuring out how to make my bed). Certified code-slinger, DIY gadget guru, and part-time sarcasm dealer, I’m on a mission to engineer solutions so cool even robots ask for my autograph. If you thought the galaxy was vast, wait ’til you see my portfolio.</p>
-    <p><em>Note:</em> I used to dabble a bit in Scratch, but I’m moving on from half-mastering that to the real stuff — Unreal Engine &amp; Roblox coming soon!</p>
-  </section>
-</header>
-
-<main>
-  <section>
-    <h2 class="section-title">Skills &amp; Technologies</h2>
-    <h3>Current Skills</h3>
-    <ul class="skills-list">
-      <li>HTML, CSS, Python, Bash/Shell, SQL, PHP</li>
-      <li>Brainstorming, Storytelling, Naming, Planning, UI/UX Design</li>
-      <li>Microsoft Word, Excel, PowerPoint, OneNote</li>
-      <li>Scratch, GitHub, AWS, VS Code, Markdown, JSON, Draw.io</li>
-      <li>Science, Math, Islamic Studies, Geography, History (a bit)</li>
-    </ul>
-    <h3>Future Skills</h3>
-    <ul class="skills-list">
-      <li>C++, Lua, JavaScript, Chemistry, Sass, Bootstrap, AI &amp; Machine Learning</li>
-    </ul>
-
-    <h3>Interests &amp; Activities</h3>
-    <ul class="interests-list">
-      <li>Writing, Reading, Drawing, Origami, Socializing, Teamwork & Collaboration</li>
-      <li>Martial Arts, Sci-Fi, Horror, Thriller, Magic, Cooking, Tutoring, Magic Tricks</li>
-      <li>Reverse Engineering, Monopoly, Chess, Competitions</li>
-      <li>Favorite Food: Pizza 🍕</li>
-    </ul>
-
-    <h3>Engineering Fields</h3>
-    <ul class="engineering-fields">
-      <li>Tech Engineering</li>
-      <li>Hacker Engineering</li>
-      <li>Planning Engineering</li>
-      <li>Reverse Engineering</li>
-      <li>Designing Engineering</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2 class="section-title">Projects</h2>
-    <div class="text-muted fst-italic">Project View Soon</div>
-  </section>
-
-  <section>
-    <h2 class="section-title">Collaboration Hub</h2>
-    <div class="collab-box">
-      <p><strong>Looking to collaborate?</strong> I’m your guy for fresh ideas, clever solutions, and helping build cool projects across tech, hacking, reverse engineering, planning, and design.</p>
-      <p>Want help troubleshooting code? Need brainstorming for your next mission? Or just want to create something epic together? Let’s team up and make the impossible possible.</p>
-      <p><em>No scratch, no emails — just real collaboration.</em></p>
-      <a href="https://github.com/Gitspert25/Gitspert25" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check Out My GitHub Repo</a>
+  <div class="container text-center">
+    <h1>M.J. Galaxy</h1>
+    <div class="subtitle">🧑‍🚀 All-Type Engineer | Creator | Dreamer</div>
+    <div class="about-text card-spooky">
+      <h2>About Me</h2>
+      <p>Hi! I'm <strong>M.J. Galaxy</strong>, a 13-year-old All-Type Engineer from Jauhrabad, Pakistan. Passionate about creating, hacking, and pioneering new tech frontiers!</p>
+      <p><em>Moving on from half-mastering Scratch; Unreal Engine &amp; Roblox are coming soon!</em></p>
     </div>
-  </section>
 
-  <section>
-    <h2 class="section-title">Artwork, Stories &amp; Games</h2>
-    <div class="text-muted fst-italic">Coming soon on a profile near you!</div>
-  </section>
-</main>
+    <div class="card-spooky text-start">
+      <h2>Skills &amp; Tools</h2>
+      <div>
+        <span class="badge-spooky">HTML</span>
+        <span class="badge-spooky">CSS</span>
+        <span class="badge-spooky">SQL</span>
+        <span class="badge-spooky">Python</span>
+        <span class="badge-spooky">PHP</span>
+        <span class="badge-spooky">Bash/Shell</span>
+        <span class="badge-spooky">AWS Cloud</span>
+        <span class="badge-spooky">Electronics</span>
+        <span class="badge-spooky">Mechanical</span>
+        <span class="badge-spooky">Reverse Engineering</span>
+        <span class="badge-spooky">DIY Creation</span>
+        <span class="badge-spooky">Game Designing</span>
+        <span class="badge-spooky">Storytelling</span>
+        <span class="badge-spooky">AI Chatbot Engineering</span>
+        <span class="badge-spooky">And More!</span>
+      </div>
+    </div>
 
-<footer>
-  <p>© 2025 M.J. Galaxy • Follow, Ask for Help, Collaborate, Create</p>
-  <p><a href="https://github.com/Gitspert25/Gitspert25" target="_blank" rel="noopener noreferrer">github.com/Gitspert25/Gitspert25</a></p>
-</footer>
+    <div class="card-spooky">
+      <h2>Collaboration Hub</h2>
+      <p>Looking to collaborate? I’m your guy for fresh ideas, clever solutions, and building cool projects across tech, hacking, reverse engineering, planning, and design.</p>
+      <p>Need help troubleshooting code? Want brainstorming for your next mission? Or just want to create something epic together? Let’s team up and make the impossible possible.</p>
+      <p><em>No Scratch, no emails — just real collaboration.</em></p>
+      <a href="https://github.com/Gitspert25/Gitspert25" target="_blank" rel="noopener noreferrer" class="btn btn-gh">Check Out My GitHub Repo</a>
+    </div>
 
-<!-- Bootstrap JS Bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="card-spooky text-muted fst-italic">
+      <h2>Artwork, Stories &amp; Games</h2>
+      <p>Coming soon on a profile near you!</p>
+    </div>
+
+    <footer>
+      <p>© 2024 M.J. Galaxy • Follow, Ask for Help, Collaborate, Create</p>
+      <p><a href="https://github.com/Gitspert25/Gitspert25" target="_blank" rel="noopener noreferrer" class="collab-link">github.com/Gitspert25/Gitspert25</a></p>
+    </footer>
+  </div>
 </body>
 </html>
